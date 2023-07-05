@@ -10,10 +10,10 @@ Your components are in "components" directory. You already have example "head" a
 
 **STRUCTURE**
 
-/public - this is what python dev server uses as web root
-/app/view.py - this file collects all components
-/app/functions.py - various functions
-/components - html components
+/public - this is what python dev server uses as web root    
+/app/view.py - this file collects all components    
+/app/functions.py - various functions    
+/components - html components    
 
 **COMPONENT**
 
@@ -25,14 +25,14 @@ view.py is file where you should collect all components and return html string.
 
 **USAGE**
 
-python3 ./serve.py
-python3 ./build.py
+python3 ./serve.py     
+python3 ./build.py     
 
 
 **REQUIRES MODULES**
 
-csscompressor
-jsmin
-BeautifulSoup
+csscompressor     
+jsmin     
+BeautifulSoup    
 
 **Have fun!**
